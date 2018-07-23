@@ -1,0 +1,18 @@
+<ForceField>
+
+  <AtomTypes>
+    <Type name="0" class="C" element="C" mass=""/>
+    <Type name="1" class="O" element="O" mass=""/>
+    <Type name="2" class="H" element="H" mass=""/>
+  </AtomTypes>
+
+  <Residues>
+    <Residue name="HCOO">
+      <Atom name="C" type="0"/>
+      <Atom name="O1" type="1"/>
+      <Atom name="O2" type="1"/>
+      <Atom name="H" type="2"/>
+    </Residue>
+  </Residues>
+
+  
