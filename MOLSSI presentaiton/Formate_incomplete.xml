@@ -12,7 +12,24 @@
       <Atom name="O1" type="1"/>
       <Atom name="O2" type="1"/>
       <Atom name="H" type="2"/>
+      <Bond atomname1="C" atomname2="O1"/>
+      <Bond atomname1="C" atomname2="O2"/>
+      <Bond atomname1="C" atomname2="H"/>
     </Residue>
   </Residues>
 
-  
+  <HarmonicBondForce>
+    <Bond class1="C" class2="O"
+      length="1.12525" k="257719.1"/>
+    <Bond class2="C" class2="H"
+      length="1.25827" k="666719.5"/>
+  </HarmonicBondForce>
+
+  <HarmonicAngleForce>
+    <Angle class1="H" class2="C" class3="O"
+      angle="" k=""/>
+    <Angle class1="O" class2="C" class4="O"
+      angle="" k=""/>
+  </HarmonicAngleForce>
+
+</ForceField>
