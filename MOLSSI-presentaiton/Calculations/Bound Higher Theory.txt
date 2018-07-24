@@ -1,0 +1,32 @@
+%nproc=2
+%mem=4gb
+# MP2 def2TZVP opt(noeigen,calcfc,z-matrix)
+
+TiO21aHCOOH
+
+0 1
+Ti1
+O2	1	R1
+O3	1	R2	2	A1
+H4	3	R3	1	A2	2	D1
+C5	1	Dist	2	A3	3	D2
+O6	5	R4	1	A4	2	D3
+O7	5	R4	1	A4	3	D3
+H8	5	R5	6	A5	7	D4
+  Variables:
+ R1          1.5884
+ R2          1.813 
+ R3          0.9583
+ R4          1.2633
+ R5          1.0941
+ A1        115.3549
+ A2        134.8775
+ A3        118.9749
+ A4         60.0497
+ A5        119.9596
+ D1         -0.0008
+ D2        180.8933
+ D3         90.1932
+ D4        179.7084
+Dist         2.38  
+  Constants:

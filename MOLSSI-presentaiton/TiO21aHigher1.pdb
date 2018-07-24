@@ -1,0 +1,9 @@
+TITLE      TiO21a1
+REMARK   1 File created by GaussView 6.0.16
+HETATM    1 Ti           0       0.000   0.000   0.417                      Ti
+HETATM    2  O           0       0.000   1.362  -0.573                       O
+HETATM    3  O           0       0.000  -1.362  -0.573                       O
+END
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3    1
