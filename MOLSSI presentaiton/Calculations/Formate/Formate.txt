@@ -1,0 +1,17 @@
+%nproc=2
+%mem=4gb
+%chk=Formate.chk
+# B3LYP Aug-cc-pvDZ opt=(noeigen,calcfc,z-matrix) freq
+
+Formate
+
+-1 1
+C
+O  1  R1
+O  1  R1  2  A1
+H  1  R2  2  A2  3  180.0
+  Variables:
+R1=2.0
+R2=1.0
+A1=120.0
+A2=120.0

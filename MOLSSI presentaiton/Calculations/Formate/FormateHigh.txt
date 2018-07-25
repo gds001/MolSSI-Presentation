@@ -1,0 +1,17 @@
+%nproc=2
+%mem=4gb
+%chk=Formate.chk
+# MP2 Aug-cc-pvTZ opt=(noeigen,calcfc,z-matrix) freq
+
+Formate
+
+-1 1
+ C
+ O,1,R1
+ O,1,R1,2,A1
+ H,1,R2,2,A2,3,180.,0
+      Variables:
+ R1=1.25802028
+ R2=1.14172266
+ A1=130.22623754
+ A2=114.88790343

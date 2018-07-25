@@ -1,0 +1,43 @@
+%nproc=2
+%mem=4gb
+%chk=TiO21aHigher.chk
+# B3LYP LanL2DZ opt=(noeigen,calcfc,z-matrix) freq
+
+TiO21a
+
+0 1
+Ti1	
+O2	1	R1
+O3	1	R1	2	A1
+	Variables:
+R1=2.0
+A1=120.0
+
+--Link1--
+
+%nproc=2
+%mem=4gb
+%chk=TiO21aHigher.chk
+# M062X Def2TZVP opt=(noeigen,calcfc,z-matrix) freq geom=check
+
+TiO21a
+
+0 1
+
+--Link1--
+
+%nproc=2
+%mem=4gb
+%chk=TiO21aHigher.chk
+# MP2 Def2TZVPPD opt=(noeigen,calcfc,z-matrix) freq geom=check
+
+TiO21a
+
+0 1
+
+--Link1--
+
+%nproc=2
+%mem=4gb
+%chk=TiO21aHigher.chk
+# MP2 Def2TZVPPD sp pop=hirshfeld

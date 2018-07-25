@@ -1,0 +1,16 @@
+%nproc=2
+%mem=4gb
+%chk=TiO21aHigher1.7.chk
+# MP2 Def2TZVP opt=(noeigen,z-matrix) freq
+
+TiO21a1
+
+0 1
+Ti
+O,1,R1
+O,1,R2,2,A1
+     Variables:
+R1=1.68345512
+A1=107.96915552
+     Constants:
+R2=1.7

@@ -1,0 +1,17 @@
+%nproc=2
+%mem=4gb
+# MP2 Aug-cc-pvTZ opt=(noeigen,calcfc,z-matrix)
+
+Formate
+
+-1 1
+ C
+ O,1,R1
+ O,1,R1,2,A1
+ H,1,R2,2,A2,3,180.,0
+      Variables:
+ R1=1.25826949
+ R2=1.12525117
+ A2=114.90939537
+      Constants:
+ A1=140.
