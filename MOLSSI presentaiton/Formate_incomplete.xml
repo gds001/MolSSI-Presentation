@@ -1,9 +1,9 @@
 <ForceField>
 
   <AtomTypes>
-    <Type name="0" class="C" element="C" mass=""/>
-    <Type name="1" class="O" element="O" mass=""/>
-    <Type name="2" class="H" element="H" mass=""/>
+    <Type name="0" class="C" element="C" mass="12.01"/>
+    <Type name="1" class="O" element="O" mass="15.999"/>
+    <Type name="2" class="H" element="H" mass="1.00794"/>
   </AtomTypes>
 
   <Residues>
@@ -20,16 +20,16 @@
 
   <HarmonicBondForce>
     <Bond class1="C" class2="O"
-      length="1.12525" k="257719.1"/>
-    <Bond class2="C" class2="H"
-      length="1.25827" k="666719.5"/>
+      length="0.112525" k="257719.1"/>
+    <Bond class1="C" class2="H"
+      length="0.125827" k="666719.5"/>
   </HarmonicBondForce>
 
   <HarmonicAngleForce>
     <Angle class1="H" class2="C" class3="O"
-      angle="" k=""/>
-    <Angle class1="O" class2="C" class4="O"
-      angle="" k=""/>
+      angle="2.005549" k="672.4958"/>
+    <Angle class1="O" class2="C" class3="O"
+      angle="2.272089" k="1075.791"/>
   </HarmonicAngleForce>
 
 </ForceField>
